@@ -14,6 +14,7 @@
     "typescript": "^4.7.4"
   },
   "scripts": {
-    "compile": "tsc --project ./"
+    "compile": "tsc --project ./",
+    "obfuscator": "javascript-obfuscator"
   }
 }
