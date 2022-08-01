@@ -15,6 +15,6 @@
   },
   "scripts": {
     "compile": "tsc --project ./",
-    "obfuscator": "javascript-obfuscator"
+    "obfuscator": "javascript-obfuscator src/sample.js && mv src/sample-obfuscated.js dist/index.dev.js"
   }
 }
